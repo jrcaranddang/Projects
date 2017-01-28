@@ -6,12 +6,14 @@ import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
 import { PrimaryNavComponent } from './primary-nav/primary-nav.component';
 import { LandingComponent } from './landing/landing.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     PrimaryNavComponent,
-    LandingComponent
+    LandingComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

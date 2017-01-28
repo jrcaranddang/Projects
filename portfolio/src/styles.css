@@ -3,3 +3,10 @@
     font-family: 'Roboto', Helvetica, sans-serif;
     font-size: 1rem;
 }
+
+body {
+    /*background-color: #1899dc;*/
+    background-image: url(https://static.pexels.com/photos/6675/flight-mountains-sky-flying.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
