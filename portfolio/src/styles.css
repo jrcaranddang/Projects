@@ -5,8 +5,9 @@
 }
 
 body {
-    /*background-color: #1899dc;*/
-    background-image: url(https://static.pexels.com/photos/6675/flight-mountains-sky-flying.jpeg);
+    background-color: #1899dc;
+
+    /*background-image: url(https://static.pexels.com/photos/6675/flight-mountains-sky-flying.jpeg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover;*/
 }
