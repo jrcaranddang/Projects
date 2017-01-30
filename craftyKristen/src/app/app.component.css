@@ -27,7 +27,7 @@ h5, .h5,
 h6, .h6 {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: normal;
-  color: #333;
+  color: #9C27B0;
 }
 
 
@@ -184,9 +184,9 @@ h6, .h6 {
     /*background-image: url(../assets/images/backgroundSplash.jpg);*/
     background-color: rgb(86, 66, 152);
     background-size: cover;
-    background-position-y: 5%;
-    width: 100vw;
-    height: 75vh;
+    background-position-y: 15%;
+    /*width: 100vw;*/
+    height: 60vh;
 
     display: flex;
     flex-flow: column wrap;
@@ -198,20 +198,26 @@ h6, .h6 {
     position: absolute;
     font-size: 7em;
     left: 5%;
-    top: 27%;
+    top: 20%;
     font-family: myFirstFont;
     transform: rotate(-23deg);
     color: #9C27B0;
+    
+    /*outline*/
+    text-shadow: 1px 1px 0px #17b19d, -1px -1px 0px #17b19d, 1px -1px 0px #17b19d, -1px 1px 0px #17b19d;
 }
 
 .site-title-img > p {
     position: absolute;
-    font-size: 2em;
-    right: 20%;
-    bottom: 30%;
+    font-size: 4em;
+    right: 30%;
+    bottom: 50%;
     font-family: myFirstFont;
     font-style: italic;
     color: #9C27B0;
+
+    /*outline*/
+    text-shadow: 1px 1px 0px #17b19d, -1px -1px 0px #17b19d, 1px -1px 0px #17b19d, -1px 1px 0px #17b19d;
 }
 
  .blog-sidebar {
