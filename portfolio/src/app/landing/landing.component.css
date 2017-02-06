@@ -1,0 +1,46 @@
+.skills {
+    min-height: 50vh
+}
+
+.intro {
+}
+
+.skills {
+    color: #eceeef;
+}
+
+.jumbotron {
+    background-image: url(../../assets/Images/cloudSea.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 75%;
+    box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2), 0px -4px 8px 2px rgba(0,0,0,0.10);
+    height: 91vh;
+}
+
+.card-group {
+    box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2), 4px 0px 8px 0px rgba(0,0,0,0.2), -4px 0px 8px 0px rgba(0,0,0,0.2);
+}
+
+.projects {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.projects > img {
+    flex: 1 100%;
+    height: calc(100vw/3/16*9);
+    width: calc(100vw/3);
+    
+    transform: scale(1.0);
+    transition: transform 0.0s 0.2s ease-in-out;
+}
+
+.projects > img:hover {    
+    transform: scale(1.1);
+    transition: transform 0.0s 0.1s ease-in-out;
+}
+
+.project-container {
+    flex-flow: row wrap;
+}
