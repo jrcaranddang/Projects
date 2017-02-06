@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, HostListener } from '@angular/core';
 
 @Component({
   selector: 'app-root',
@@ -8,7 +8,10 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'app works!';
 
-  play() {
-    
+  // @HostListener('window:keypress', ['$event'])
+  play($event, sound) {
+    console.log($event.keyCode);
+    console.log(sound.play());
   }
+
 }
